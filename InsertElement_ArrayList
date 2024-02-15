@@ -1,0 +1,19 @@
+package ListArr;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class InsertElement_ArrayList {
+public static void main(String[] args) {
+	List<String> sub= new ArrayList<>();
+	sub.add("java");
+	sub.add("sql");
+	sub.add("webtech");
+	sub.add("c");
+	System.out.println(sub);
+	
+	sub.add(0, "c++");
+	sub.add(3, "webservices");
+	System.out.println(sub);
+}
+}
