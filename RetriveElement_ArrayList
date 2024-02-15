@@ -1,0 +1,20 @@
+package ListArr;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RetriveElement_ArrayList {
+public static void main(String[] args) {
+	List<String> color= new ArrayList<>();
+	color.add("Black");
+	color.add("White");
+	color.add("Pink");
+	color.add("red");
+	System.out.println(color);
+	
+	String element= color.get(0);
+	System.out.println("First element:" +element);
+	 element=color.get(3);
+	System.out.println("Third element:" + element);
+}
+}
